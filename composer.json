@@ -1,0 +1,25 @@
+{
+    "name": "gennadyterekhov/quadratic_solver",
+    "description": "quadratic equations solver",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Gennady Terekhov",
+            "email": "ter.ge@yandex.ru"
+        }
+    ],
+    "require": {
+        "amocrm/amocrm-api-library": "^0.3.0",
+        "fzaninotto/faker": "^1.9",
+        "monolog/monolog": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "./App"
+        },
+        "classmap": [
+          "App/Controllers",
+          "App/Models"
+        ]
+      }
+}
